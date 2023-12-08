@@ -1,0 +1,75 @@
+.container {
+  display: grid;
+  grid-template-rows: 50px 100px;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 710px;
+}
+
+.history {
+  display: flex;
+  justify-content: space-between;
+  width: 710px;
+  margin-top: 16px;
+}
+
+.Experience {
+  display: flex;
+  justify-content: space-between;
+  width: 710px;
+  margin-top: 16px;
+}
+
+.section {
+  width: 710px;
+  margin-top: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.boldspan {
+  font-weight: 600;
+  border: solid 1px white;
+  border-color: transparent;
+  border-bottom-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-spacing: 0px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../asset/font/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.company-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+* {
+  font-family: Roboto;
+}

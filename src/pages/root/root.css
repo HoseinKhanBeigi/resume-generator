@@ -1,7 +1,12 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
 .container {
-  display: grid;
-  grid-template-rows: 50px 100px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .header {
   display: flex;
@@ -16,27 +21,28 @@
   margin-top: 16px;
 }
 
-.Experience {
-  display: flex;
-  justify-content: space-between;
-  width: 710px;
-  margin-top: 16px;
-}
-
 .section {
   width: 710px;
-  margin-top: 16px;
+  /* margin-top: 16px; */
+}
+.fullName {
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
-.bold {
-  font-weight: bold;
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 506px;
 }
-
 .boldspan {
-  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 200;
   border: solid 1px white;
   border-color: transparent;
-  border-bottom-color: black;
+  border-bottom-color: #ff5454;
 }
 
 body {
@@ -51,9 +57,13 @@ body {
   border-spacing: 0px;
 }
 
+.line {
+  color: brown;
+}
+
 @font-face {
-  font-family: "Roboto";
-  src: url("../../assets/Roboto/Roboto-Light.ttf") format("truetype");
+  font-family: "Afacad";
+  src: url("../../assets/Afacad/static/Afacad-Regular.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
@@ -67,9 +77,15 @@ body {
 .company-date {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  align-items: center;
+  color: burlywood;
 }
 
 * {
-  font-family: Roboto;
+  font-family: Afacad;
+}
+
+.decs {
+  line-height: 1.9rem;
+  font-size: 20px;
 }

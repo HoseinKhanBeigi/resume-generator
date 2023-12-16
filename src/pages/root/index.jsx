@@ -1,22 +1,7 @@
-import { useEffect } from "react";
+
 import "./root.css";
 export default function Root() {
-  useEffect(() => {
-    class A {
-      constructor(x) {
-        this.x = x;
-      }
-    }
 
-    class B extends A {
-      constructor(x, y, n, m) {
-        super(n);
-        this.x += x;
-      }
-    }
-
-    console.log(new B(10, 0, 2, 0));
-  }, []);
 
   return (
     <>
@@ -29,11 +14,11 @@ export default function Root() {
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <div className="line">Skills</div>
               <div className="contact">
-                <div style={{ color: "#a05151" }}>me-h.vercel.app</div>
-                <div style={{ color: "#a05151" }}>
+                <div style={{ color: "rgb(0 56 127)" }}>me-h.vercel.app</div>
+                <div style={{ color: "rgb(0 56 127)" }}>
                   hoseinkhanbeigi@gmail.com
                 </div>
-                <div style={{ color: "#a05151" }}>
+                <div style={{ color: "rgb(0 56 127)" }}>
                   github.com/HoseinKhanBeigi
                 </div>
               </div>

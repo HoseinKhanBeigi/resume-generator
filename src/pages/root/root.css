@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(25, 25, 25);
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(46, 46, 46);
 }
 .container {
   display: flex;
@@ -42,7 +42,7 @@ body {
   font-weight: 200;
   border: solid 1px white;
   border-color: transparent;
-  border-bottom-color: #ff5454;
+  border-bottom-color: #545aff;
 }
 
 body {
@@ -58,7 +58,7 @@ body {
 }
 
 .line {
-  color: brown;
+  color: rgb(18, 9, 196);
 }
 
 @font-face {
@@ -78,7 +78,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: burlywood;
+  color: rgb(0, 13, 255);
 }
 
 * {

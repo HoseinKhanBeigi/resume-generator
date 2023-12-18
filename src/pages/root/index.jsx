@@ -1,8 +1,5 @@
-
 import "./root.css";
 export default function Root() {
-
-
   return (
     <>
       <div className="container">
@@ -28,9 +25,9 @@ export default function Root() {
           <div style={{ fontSize: "20px" }}>
             javascript - typescript - react - nextjs - vue - angular - redux -
             graphql - ngRx - Rxjs - vueX - service worker/PWA - nodejs - nestjs
-            - git - docker - nosql/sql - mongodb - micro-front - webassembly -
-            mysql - mui - antd - pdf-lib puppeteer - animejs - gsap - unit-test
-            - cypress
+            - git - docker - nosql/sql - mongodb - microservices - gRPC - golang
+            - gin - mysql - mui - antd - pdf-lib puppeteer - animejs - gsap -
+            unit-test
           </div>
         </div>
         <div className="section">
@@ -40,17 +37,16 @@ export default function Root() {
 
         <div className="section">
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "24px" }}>
+            <div className="bold" style={{ fontSize: "20px" }}>
               {" "}
-              Sr FrontEnd Developer
+              Sr fullstack developer
             </div>
             <div className="bold">kian Digital</div>
-            <div>Tehran-Iran</div>
+            <div>Tehran-Iran remote</div>
             <div className="bold">05/2023 to Now</div>
           </div>
           <div className="decs">
-            {`-Pioneered the introduction and implementation of Next.js as a cutting-edge technology within the company, driving its adoption across all projects and achieving a 50% reduction in load times.
-`}
+            {`-Utilized containerization and orchestration tools, such as Docker and Kubernetes, for efficient deployment and scaling of applications.`}
           </div>
           <div className="decs">
             {`
@@ -59,19 +55,19 @@ export default function Root() {
           </div>
           <div className="decs">
             {`
-- Created a scalable custom UI library and took charge in implementing a DSM for consistent UI components throughout projects.
+- Implemented RESTful APIs and microservices architecture to enhance system flexibility and maintainability.
 `}
           </div>
           <div className="decs">
             {`
-- Led team of 3 front-end developers in a project, applying SOLID principles and using advanced Next.js features for optimized performance and SEO.`}
+-Demonstrated proficiency in database design and management, working with relational databases (e.g., PostgreSQL, MySQL) and NoSQL databases (e.g., MongoDB).`}
           </div>
         </div>
         <div className="section">
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "24px" }}>
+            <div className="bold" style={{ fontSize: "20px" }}>
               {" "}
-              Sr FrontEnd Developer
+              Sr fullstack developer
             </div>
             <div className="bold">Supnex</div>
             <div>Dubai-UAE</div>
@@ -79,23 +75,22 @@ export default function Root() {
           </div>
           <div className="achivments">
             <div className="decs">
-              {`-spread team productivity by 10% through refactoring the project’s resources.`}
+              {`-Applied best practices in Gin, such as dependency injection and code organization, to maintain clean and scalable codebases.`}
             </div>
             <div className="decs">
               {`
--Established the customized UI library with Material Design context, while bundle size was reduced by 40% personalization was increased to 70%.
-Transitioned from Webpack to Vite, resulting in a 3x application speed boost.
+-Integrated gRPC services seamlessly with the Gin framework, allowing for a flexible and comprehensive backend architecture.
 `}
             </div>
             <div className="decs">
               {`
--Enhanced admin panel for streamlined product management, leading to a 10% support team efficiency addition.`}
+-Collaborated with DevOps teams to containerize Gin applications using Docker and orchestrate deployments with tools like Kubernetes.`}
             </div>
           </div>
         </div>
         <div className="section">
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "24px" }}>
+            <div className="bold" style={{ fontSize: "20px" }}>
               {" "}
               FrontEnd Developer
             </div>
@@ -115,9 +110,9 @@ Transitioned from Webpack to Vite, resulting in a 3x application speed boost.
         </div>
         <div className="section">
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "24px" }}>
+            <div className="bold" style={{ fontSize: "20px" }}>
               {" "}
-              FrontEnd Developer
+              javascript Developer
             </div>
             <div className="bold">Datis Pars Java Solutions Co</div>
             <div>Tehran - Munich</div>

@@ -45,9 +45,7 @@ export default function Root() {
             <div>Tehran-Iran remote</div>
             <div className="bold">05/2023 to Now</div>
           </div>
-          <div className="decs">
-            {`-Utilized containerization and orchestration tools, such as Docker and Kubernetes, for efficient deployment and scaling of applications.`}
-          </div>
+
           <div className="decs">
             {`
 -Led the successful front-end migration of a legacy project to Next.js, Typescript, and React, resulting in a 40% improvement in performance and scalability metrics.
@@ -55,12 +53,12 @@ export default function Root() {
           </div>
           <div className="decs">
             {`
-- Implemented RESTful APIs and microservices architecture to enhance system flexibility and maintainability.
+-  Spearheaded the implementation of RESTful APIs and microservices architecture, resulting in a 40% reduction in system downtime and improving overall system performance and reliability
 `}
           </div>
           <div className="decs">
             {`
--Demonstrated proficiency in database design and management, working with relational databases (e.g., PostgreSQL, MySQL) and NoSQL databases (e.g., MongoDB).`}
+-Spearheaded the successful migration from a legacy relational database system to MongoDB, optimizing data storage and retrieval processes, leading to a 50% reduction in storage costs and a 30% increase in data processing speed.`}
           </div>
         </div>
         <div className="section">
@@ -75,16 +73,16 @@ export default function Root() {
           </div>
           <div className="achivments">
             <div className="decs">
-              {`-Applied best practices in Gin, such as dependency injection and code organization, to maintain clean and scalable codebases.`}
+              {`-Achieved a 20% improvement in codebase cleanliness and scalability by implementing best practices in Gin, including effective dependency injection and systematic code organization`}
             </div>
             <div className="decs">
               {`
--Integrated gRPC services seamlessly with the Gin framework, allowing for a flexible and comprehensive backend architecture.
+-Seamless integration of gRPC services with the Gin framework, resulting in a 30% increase in backend architecture flexibility and comprehensiveness.
 `}
             </div>
             <div className="decs">
               {`
--Collaborated with DevOps teams to containerize Gin applications using Docker and orchestrate deployments with tools like Kubernetes.`}
+-Collaborated with DevOps teams to containerize Gin applications using Docker, leading to a 25% improvement in deployment efficiency, and orchestrated seamless deployments with tools like Kubernetes.`}
             </div>
           </div>
         </div>

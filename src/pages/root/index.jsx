@@ -45,21 +45,18 @@ export default function Root() {
             <div>Tehran-Iran remote</div>
             <div className="bold">05/2023 to Now</div>
           </div>
-
-          <div className="decs">
-            {`
--Led the successful front-end migration of a legacy project to Next.js, Typescript, and React, resulting in a 40% improvement in performance and scalability metrics.
-`}
-          </div>
-          <div className="decs">
-            {`
--  Spearheaded the implementation of RESTful APIs and microservices architecture, resulting in a 40% reduction in system downtime and improving overall system performance and reliability
-`}
-          </div>
-          <div className="decs">
-            {`
--Spearheaded the successful migration from a legacy relational database system to MongoDB, optimizing data storage and retrieval processes, leading to a 50% reduction in storage costs and a 30% increase in data processing speed.`}
-          </div>
+          <ul>
+            {[
+              "Pioneered the introduction and implementation of Next.js as a cutting-edge technology within the company, driving its adoption across all projects and achieving a 50% reduction in load times.",
+              "Led the successful front-end migration of a legacy project to Next.js, Typescript, and React, resulting in a 40% improvement in performance and scalability metrics.",
+              "Created a scalable custom UI library and took charge in implementing a DSM for consistent UI components throughout projects.",
+              "Led team of 3 front-end developers in a project, applying SOLID principles and using advanced Next.js features for optimized performance and SEO.",
+            ].map((e) => (
+              <li className="desc" key={e}>
+                {e}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="section">
           <div className="company-date">
@@ -71,20 +68,19 @@ export default function Root() {
             <div>Dubai-UAE</div>
             <div className="bold">05/2020 to 02/2023</div>
           </div>
-          <div className="achivments">
-            <div className="decs">
-              {`-Achieved a 20% improvement in codebase cleanliness and scalability by implementing best practices in Gin, including effective dependency injection and systematic code organization`}
-            </div>
-            <div className="decs">
-              {`
--Seamless integration of gRPC services with the Gin framework, resulting in a 30% increase in backend architecture flexibility and comprehensiveness.
-`}
-            </div>
-            <div className="decs">
-              {`
--Collaborated with DevOps teams to containerize Gin applications using Docker, leading to a 25% improvement in deployment efficiency, and orchestrated seamless deployments with tools like Kubernetes.`}
-            </div>
-          </div>
+
+          <ul>
+            {[
+              "spread team productivity by 10% through refactoring the project’s resources.",
+              "Established the customized UI library with Material Design context, while bundle size was reduced by 40% personalization was increased to 70%. Transitioned from Webpack to Vite, resulting in a 3x application speed boost",
+              "Enhanced admin panel for streamlined product management, leading to a 10% support team effciency addition.",
+              "Collaborated with DevOps teams to containerize Gin applications using Docker, enhancing deployment efficiency by 25%, and orchestrating seamless deployments with Kubernetes.",
+            ].map((e) => (
+              <li className="desc" key={e}>
+                {e}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="section">
           <div className="company-date">
@@ -97,14 +93,16 @@ export default function Root() {
             <div className="bold">05/2017 to 02/2020</div>
           </div>
 
-          <div className="achivments">
-            <div className="decs">
-              {`-Drove a 25% improvement in website performance by optimizing critical rendering paths, reducing page load times, and implementing lazy loading techniques.`}
-            </div>
-            <div className="decs">
-              {`-Orchestrated effective teamwork among designers, back-end developers, and project managers, ensuring timely delivery of high-quality web solutions; achieved an outstanding 95% on-time project completion rate, exceeding industry benchmarks.`}
-            </div>
-          </div>
+          <ul>
+            {[
+              "Drove a 25% improvement in website performance by optimizing critical rendering paths, reducing page load times, and implementing lazy loading techniques.",
+              "Orchestrated effective teamwork among designers, back-end developers, and project managers, ensuring timely delivery of high-quality web solutions; achieved an outstanding 95% on-time project completion rate, exceeding industry benchmarks.",
+            ].map((e) => (
+              <li className="desc" key={e}>
+                {e}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="section">
           <div className="company-date">
@@ -116,21 +114,17 @@ export default function Root() {
             <div>Tehran - Munich</div>
             <div className="bold">05/2015 to 05/2017</div>
           </div>
-          <div className="achivments">
-            <div className="decs">
-              {`-Took part in creating a complex admin panel for querying, manipulating, filtering, and visualizing data from a network security device.
-`}
-            </div>
-            <div className="decs">
-              {`
-- Developed a custom chart library using D3.js.
-`}
-            </div>
-            <div className="decs">
-              {`
-- Integrated the library into projects built with Polymer.js, Angular 2, React, and Vue 1, enhancing data visualization across diverse frameworks.`}
-            </div>
-          </div>
+
+          <ul>
+            {[
+              "Took part in creating a complex admin panel for querying, manipulating, filtering, and visualizing data from a network security device.",
+              "Integrated the library into projects built with Polymer.js, Angular 2, React, and Vue 1, enhancing data visualization across diverse frameworks",
+            ].map((e) => (
+              <li className="desc" key={e}>
+                {e}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="section">
           <div>

@@ -6,33 +6,34 @@ export default function Root() {
         <div className="section">
           <div className="fullName">HOSSEIN KHAN BEIGI</div>
         </div>
-        <div className="section">
+        {/* <div className="section">
           <div style={{ fontSize: "16px" }} className="bold">
             SUMMARY
           </div>
-        </div>
-        <div className="section" style={{ marginBottom: "8px" }}>
+        </div> */}
+        {/* <div className="section" style={{ marginBottom: "8px" }}>
           self-educated front-end developer with over 8 years of experience in
           javascript language and front-end technologies and a strong background
           in developing user interfaces and optimizing web performance across
           various industries, including Fintech, e-commerce, and Management
           Systems.
-        </div>
+        </div> */}
 
         <div className="section">
-          <div style={{ fontSize: "16px" }} className="bold">
-            EXPERIENCE
+          <div style={{ fontSize: "16px", color: "#686767" }}>
+            Work Experience
           </div>
         </div>
 
         <div className="section">
           <div className="company-date">
-            <div style={{ fontSize: "20px" }}>
-              Sr fullstack developer - kian Digital
+            <div className="bold">Senior Fullstack Developer</div>
+            <div style={{ color: "#686767" }}>kian Digital</div>
+            <div style={{ marginBottom: "6px", color: "#686767" }}>
+              05/2023 - current
             </div>
-            <div>05/2023 - current</div>
           </div>
-          <ul>
+          <div style={{ marginBottom: "6px" }}>
             {[
               "Pioneered the introduction and implementation of Next.js as a cutting-edge technology within the company, driving its adoption across all projects and achieving a 50% reduction in load times.",
               "Led the successful front-end migration of a legacy project to Next.js, Typescript, and React, resulting in a 40% improvement in performance and scalability metrics.",
@@ -43,17 +44,18 @@ export default function Root() {
                 {e}
               </li>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="section">
           <div className="company-date">
-            <div style={{ fontSize: "20px" }}>
-              Sr fullstack developer - Supnex
+            <div className="bold">Senior Fullstack Developer</div>
+            <div style={{ color: "#686767" }}>Supnex</div>
+            <div style={{ marginBottom: "6px", color: "#686767" }}>
+              05/2020 - 02/2023
             </div>
-            <div>05/2020 - 02/2023</div>
           </div>
 
-          <ul>
+          <div style={{ marginBottom: "6px" }}>
             {[
               "spread team productivity by 10% through refactoring the project’s resources.",
               "Established the customized UI library with Material Design context, while bundle size was reduced by 40% personalization was increased to 70%. Transitioned from Webpack to Vite, resulting in a 3x application speed boost",
@@ -64,15 +66,18 @@ export default function Root() {
                 {e}
               </li>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="section">
           <div className="company-date">
-            <div style={{ fontSize: "20px" }}>fullstack Developer - Elevāt</div>
-            <div>05/2019 - 02/2020</div>
+            <div className="bold">Fullstack Developer</div>
+            <div style={{ color: "#686767" }}>Elevāt</div>
+            <div style={{ marginBottom: "6px", color: "#686767" }}>
+              05/2019 - 02/2020
+            </div>
           </div>
 
-          <ul>
+          <div style={{ marginBottom: "6px" }}>
             {[
               "developed services to send API requests, React components, snapshot and service tests for UI project.",
               " Collaborated with 8 developers on 2 high-impact projects, taking ownership of database schema design, API endpoint development, authentication implementation, and database CRUD operations.",
@@ -81,17 +86,18 @@ export default function Root() {
                 {e}
               </li>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="section">
           <div className="company-date">
-            <div style={{ fontSize: "20px" }}>
-              FrontEnd Developer - Round Table Apps
+            <div className="bold">FrontEnd Developer</div>
+            <div style={{ color: "#686767" }}>Round Table Apps</div>
+            <div style={{ marginBottom: "6px", color: "#686767" }}>
+              05/2017 - 02/2020
             </div>
-            <div>05/2017 - 02/2020</div>
           </div>
 
-          <ul>
+          <div style={{ marginBottom: "6px" }}>
             {[
               "Drove a 25% improvement in website performance by optimizing critical rendering paths, reducing page load times, and implementing lazy loading techniques.",
               "Orchestrated effective teamwork among designers, back-end developers, and project managers, ensuring timely delivery of high-quality web solutions; achieved an outstanding 95% on-time project completion rate, exceeding industry benchmarks.",
@@ -100,17 +106,18 @@ export default function Root() {
                 {e}
               </li>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="section" style={{ marginBottom: "8px" }}>
           <div className="company-date">
-            <div style={{ fontSize: "20px" }}>
-              javascript Developer - Datis Pars Java Solutions Co
+            <div className="bold">javascript Developer</div>
+            <div style={{ color: "#686767" }}>Datis Pars Java Solutions Co</div>
+            <div style={{ marginBottom: "6px", color: "#686767" }}>
+              05/2015 - 05/2017
             </div>
-            <div>05/2015 - 05/2017</div>
           </div>
 
-          <ul>
+          <div>
             {[
               "Took part in creating a complex admin panel for querying, manipulating, filtering, and visualizing data from a network security device.",
               "Integrated the library into projects built with Polymer.js, Angular 2, React, and Vue 1, enhancing data visualization across diverse frameworks",
@@ -119,7 +126,7 @@ export default function Root() {
                 {e}
               </li>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="section">
           <div style={{ fontSize: "16px" }} className="bold">

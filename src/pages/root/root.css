@@ -31,6 +31,10 @@ body {
   margin-top: 8px;
 }
 
+.bold {
+  font-family: "Roboto1";
+}
+
 .contact {
   display: flex;
   justify-content: space-around;
@@ -68,8 +72,8 @@ body {
   font-style: normal;
 }
 @font-face {
-  font-family: "Roboto";
-  src: url("../../asset/font/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-family: "Roboto1";
+  src: url("../../assets/Afacad/static/Afacad-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -78,11 +82,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(0, 13, 255);
+  color: rgb(0 0 0);
 }
 
 * {
   font-family: Afacad;
+  margin: 0;
 }
 
 .decs {

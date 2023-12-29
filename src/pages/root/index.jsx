@@ -7,49 +7,36 @@ export default function Root() {
           <div className="fullName">HOSSEIN KHAN BEIGI</div>
         </div>
         <div className="section">
-          <div>
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
-              <div className="line">Skills</div>
-              <div className="contact">
-                <div style={{ color: "rgb(0 56 127)" }}>me-h.vercel.app</div>
-                <div style={{ color: "rgb(0 56 127)" }}>
-                  hoseinkhanbeigi@gmail.com
-                </div>
-                <div style={{ color: "rgb(0 56 127)" }}>
-                  github.com/HoseinKhanBeigi
-                </div>
-              </div>
-            </div>
-            <div className="boldspan"></div>
-          </div>
-          <div style={{ fontSize: "20px" }}>
-            javascript - typescript - react - nextjs - vue - angular - redux -
-            graphql - ngRx - Rxjs - vueX - service worker/PWA - nodejs - nestjs
-            - git - docker - nosql/sql - mongodb - microservices - gRPC - golang
-            - gin - mysql - mui - antd - pdf-lib puppeteer - animejs - gsap -
-            unit-test
+          <div style={{ fontSize: "16px" }} className="bold">
+            SUMMARY
           </div>
         </div>
+        <div className="section" style={{ marginBottom: "8px" }}>
+          self-educated front-end developer with over 8 years of experience in
+          javascript language and front-end technologies and a strong background
+          in developing user interfaces and optimizing web performance across
+          various industries, including Fintech, e-commerce, and Management
+          Systems.
+        </div>
+
         <div className="section">
-          <div className="line">Experience</div>
-          <div className="boldspan"></div>
+          <div style={{ fontSize: "16px" }} className="bold">
+            EXPERIENCE
+          </div>
         </div>
 
         <div className="section">
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "20px" }}>
-              {" "}
-              Sr fullstack developer
+            <div style={{ fontSize: "20px" }}>
+              Sr fullstack developer - kian Digital
             </div>
-            <div className="bold">kian Digital</div>
-            <div>Tehran-Iran remote</div>
-            <div className="bold">05/2023 to Now</div>
+            <div>05/2023 - current</div>
           </div>
           <ul>
             {[
               "Pioneered the introduction and implementation of Next.js as a cutting-edge technology within the company, driving its adoption across all projects and achieving a 50% reduction in load times.",
               "Led the successful front-end migration of a legacy project to Next.js, Typescript, and React, resulting in a 40% improvement in performance and scalability metrics.",
-              "Created a scalable custom UI library and took charge in implementing a DSM for consistent UI components throughout projects.",
+              "•  Spearheaded the adoption of a Design System Manager (DSM) to streamline UI component management, resulting in a 50% increase in development efficiency and ensuring consistent user experience throughout projects.",
               "Led team of 3 front-end developers in a project, applying SOLID principles and using advanced Next.js features for optimized performance and SEO.",
             ].map((e) => (
               <li className="desc" key={e}>
@@ -60,13 +47,10 @@ export default function Root() {
         </div>
         <div className="section">
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "20px" }}>
-              {" "}
-              Sr fullstack developer
+            <div style={{ fontSize: "20px" }}>
+              Sr fullstack developer - Supnex
             </div>
-            <div className="bold">Supnex</div>
-            <div>Dubai-UAE</div>
-            <div className="bold">05/2020 to 02/2023</div>
+            <div>05/2020 - 02/2023</div>
           </div>
 
           <ul>
@@ -84,13 +68,27 @@ export default function Root() {
         </div>
         <div className="section">
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "20px" }}>
-              {" "}
-              FrontEnd Developer
+            <div style={{ fontSize: "20px" }}>fullstack Developer - Elevāt</div>
+            <div>05/2019 - 02/2020</div>
+          </div>
+
+          <ul>
+            {[
+              "developed services to send API requests, React components, snapshot and service tests for UI project.",
+              " Collaborated with 8 developers on 2 high-impact projects, taking ownership of database schema design, API endpoint development, authentication implementation, and database CRUD operations.",
+            ].map((e) => (
+              <li className="desc" key={e}>
+                {e}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="section">
+          <div className="company-date">
+            <div style={{ fontSize: "20px" }}>
+              FrontEnd Developer - Round Table Apps
             </div>
-            <div className="bold">Round Table Apps</div>
-            <div>Sydney-NSW</div>
-            <div className="bold">05/2017 to 02/2020</div>
+            <div>05/2017 - 02/2020</div>
           </div>
 
           <ul>
@@ -104,15 +102,12 @@ export default function Root() {
             ))}
           </ul>
         </div>
-        <div className="section">
+        <div className="section" style={{ marginBottom: "8px" }}>
           <div className="company-date">
-            <div className="bold" style={{ fontSize: "20px" }}>
-              {" "}
-              javascript Developer
+            <div style={{ fontSize: "20px" }}>
+              javascript Developer - Datis Pars Java Solutions Co
             </div>
-            <div className="bold">Datis Pars Java Solutions Co</div>
-            <div>Tehran - Munich</div>
-            <div className="bold">05/2015 to 05/2017</div>
+            <div>05/2015 - 05/2017</div>
           </div>
 
           <ul>
@@ -127,15 +122,29 @@ export default function Root() {
           </ul>
         </div>
         <div className="section">
-          <div>
-            <div className="line">Education</div>
-            <div className="boldspan"></div>
+          <div style={{ fontSize: "16px" }} className="bold">
+            SKILLS
           </div>
-          <div className="company-date">
-            <div className="bold">sharif univercity</div>
+        </div>
+        <div className="section">
+          <div style={{ fontSize: "16px" }}>
+            javascript - typescript - react - nextjs - vue - angular - redux -
+            graphql - ngRx - Rxjs - vueX - service worker/PWA - nodejs - nestjs
+            - git - docker - nosql/sql - mongodb - microservices - gRPC - golang
+            - gin - mysql - mui - antd - pdf-lib puppeteer - animejs - gsap -
+            unit-test
+          </div>
+        </div>
+        <div className="section">
+          <div className="section">
+            <div style={{ fontSize: "16px" }} className="bold">
+              Education
+            </div>
+          </div>
 
-            <div>Tehran - Iran</div>
-            <div className="bold">2010 to 2014</div>
+          <div className="company-date">
+            <div>sharif univercity</div>
+            <div>2010 to 2014</div>
           </div>
           <div> Major in computer engineering</div>
         </div>

@@ -11,8 +11,11 @@ export default function Root() {
     <>
       <div className="container">
         <div className="section">
-          <div className="fullName">HOSSEIN KHAN BEIGI</div>
-          <div className="fullName">hoseinkhanbeigi@gmail.com</div>
+          <div className="fullName">
+            <span className="bold">HOSSEIN KHAN BEIGI</span>
+            <span>hoseinkhanbeigi@gmail.com 09123979838</span>
+          </div>
+          <div className="fullName"></div>
         </div>
         {/* <div className="section">
           <div style={{ fontSize: "16px" }} className="bold">
@@ -159,9 +162,9 @@ export default function Root() {
 
           <div className="company-date">
             <div>sharif univercity</div>
-            <div>2010 to 2014</div>
+            <div>2013 to 2016</div>
           </div>
-          <div> Major in computer engineering</div>
+          <div> master in AI</div>
         </div>
       </div>
     </>

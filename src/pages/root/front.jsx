@@ -28,10 +28,20 @@ export default function Root() {
             fontSize: "0.91rem",
           }}
         >
-          Experienced frontend engineer with over 8 years of expertise in
-          developing user interfaces and optimizing web performance. Proficient
-          in leveraging cutting-edge technologies to deliver innovative and
-          seamless user experiences.
+          Experienced Front-end Developer with over 8 years of professional
+          experience, specializing in{" "}
+          <span className="RobotoRegular">JavaScript, Vuejs</span> . Passionate
+          about building engaging user interfaces and enhancing user
+          experiences, particularly in the travel industry. Adept at working in
+          dynamic, agile environments and leveraging technical expertise to
+          drive product improvements and innovations.
+          {/* Experienced Frontend Developer with a strong background in<span className="RobotoRegular"> Svelte and
+          SvelteKit/Sapper - React - Next.</span> Proficient in building
+          high-performance web applications and implementing complex frontend
+          solutions. Skilled in data-intensive frontend development and managing
+          user interactions. Passionate about delivering exceptional user
+          experiences and contributing to innovative projects in the crypto and
+          Web3 space. */}
         </div>
 
         <div className="section">
@@ -51,15 +61,30 @@ export default function Root() {
 
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <div style={{ color: "#686767" }}>kian Digital</div>
-              <div style={{ color: "#686767" }}>Tehran Remote</div>
+              <div style={{ color: "#686767" }}>Tehran</div>
             </div>
           </div>
           <div style={{ marginBottom: "6px", fontSize: "0.91rem" }}>
             {[
-              "Pioneered the introduction and implementation of Next.js application as a cutting-edge technology within the company, driving its adoption across all projects and achieving a 50% reduction in load times.",
-              "Orchestrated the migration of three front-end applications from a legacy project to Next.js, Typescript, and React, resulting in a significant 40% boost in performance and scalability metrics, enhancing user experience and driving business growth.",
-              "Built Developed and Maintained 2 front-end applications from scratch with Next.js 13, Typescript",
-              "Led team of 3 front-end developers in a project, applying SOLID principles and using advanced Next.js features for optimized performance and SEO.",
+              "Led frontend implementation projects, ensuring efficient and user-friendly web interfaces using Angular framework.",
+              "Collaborated with back-end developers and designers to translate business requirements into technical solutions.",
+              "Implemented modern authentication mechanisms and integrated RESTful APIs to enhance application functionality.",
+              "Conducted thorough testing using Karma and Jasmine to ensure code quality and reliability.",
+              // "Developed user-facing features using React.js, ensuring high performance and responsiveness across various devices and browsers.",
+              // "Developed and implemented new software programs using React.js and Node.js, contributing to the enhancement of the company's web applications.",
+              // "Collaborated closely with department heads, developers, and tech support colleagues to communicate project requirements and resolve technical issues.",
+              // "Conducted thorough testing of software products to identify and address bugs, ensuring high-quality deliverables.",
+              // "Recommended improvements to existing software programs to enhance user experience and optimize performance.",
+              // "Participated in cross-functional team meetings to ideate software solutions and contribute to product development strategies.",
+              // "Led frontend development projects using Svelte and SvelteKit/Sapper, contributing to the maintenance and enhancement of existing codebase.",
+              // "Implemented data-intensive features and managed complex user interactions to improve overall application performance",
+              // "Collaborated with cross-functional teams to design and implement frontend solutions aligned with project requirements and timelines.",
+              // "Conducted code reviews and provided constructive feedback to team members to ensure code quality and adherence to best practices.",
+              // "Actively participated in architectural discussions and decision-making processes to drive frontend design improvements and innovation.",
+              // "Pioneered the introduction and implementation of Next.js application as a cutting-edge technology within the company, driving its adoption across all projects and achieving a 50% reduction in load times.",
+              // "Orchestrated the migration of three front-end applications from a legacy project to Next.js, Typescript, and React, resulting in a significant 40% boost in performance and scalability metrics, enhancing user experience and driving business growth.",
+              // "Built Developed and Maintained 2 front-end applications from scratch with Next.js 13, Typescript",
+              // "Led team of 3 front-end developers in a project, applying SOLID principles and using advanced Next.js features for optimized performance and SEO.",
             ].map((e) => (
               <li className="desc" key={e}>
                 {e}
@@ -195,11 +220,17 @@ export default function Root() {
           </div>
         </div>
         <div className="section">
-          <div style={{ fontSize: "0.9rem", marginBottom: "16px" }}>
-            Languages: JavaScript, TypeScript Frameworks/Libraries: React,
-            Next.js, Tailwind CSS, React Query v5, React Context, React Suspense
-            Tools/Technologies: PostgreSQL Others: Blockchain API libraries
-            (optional)
+          <div
+            style={{ fontSize: "0.9rem", marginBottom: "16px" }}
+            className="RobotoRegular"
+          >
+            Languages: JavaScript - TypeScript - PHP
+            <div className="RobotoRegular">
+              Frameworks/Libraries: React - React - TypeScript - Styled
+              components - Apollo - Jest - React Testing Library - Chromatic -
+              Cypress. - Next.js - Tailwind - CSS MongoDB - MariaDB/MySQL -
+              Docker
+            </div>
           </div>
         </div>
         <div className="section">

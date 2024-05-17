@@ -30,11 +30,13 @@ export default function Root() {
         >
           Experienced Front-end Developer with over 8 years of professional
           experience, specializing in{" "}
-          <span className="RobotoRegular">JavaScript, Vuejs</span> . Passionate
-          about building engaging user interfaces and enhancing user
-          experiences, particularly in the travel industry. Adept at working in
-          dynamic, agile environments and leveraging technical expertise to
-          drive product improvements and innovations.
+          <span className="RobotoRegular">
+            JavaScript, ReactJS, NextJS, TypeScript - Solidity - web3.js
+          </span>{" "}
+          . Passionate about building engaging user interfaces and enhancing
+          user experiences, particularly in the travel industry. Adept at
+          working in dynamic, agile environments and leveraging technical
+          expertise to drive product improvements and innovations.
           {/* Experienced Frontend Developer with a strong background in<span className="RobotoRegular"> Svelte and
           SvelteKit/Sapper - React - Next.</span> Proficient in building
           high-performance web applications and implementing complex frontend
@@ -96,7 +98,7 @@ export default function Root() {
           <div className="company-date">
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <div className="bold">Senior Front-end Developer</div>
-
+              <div>Parent {String.fromCharCode(62)} Children</div>
               <div style={{ marginBottom: "6px", color: "#686767" }}>
                 2020-2023
               </div>
@@ -227,9 +229,9 @@ export default function Root() {
             Languages: JavaScript - TypeScript - PHP
             <div className="RobotoRegular">
               Frameworks/Libraries: React - React - TypeScript - Styled
-              components - Apollo - Jest - React Testing Library - Chromatic -
-              Cypress. - Next.js - Tailwind - CSS MongoDB - MariaDB/MySQL -
-              Docker
+              components - web3.js - Apollo - Jest - React Testing Library -
+              Chromatic - Cypress. - Next.js - Tailwind - CSS MongoDB -
+              MariaDB/MySQL - Docker
             </div>
           </div>
         </div>

@@ -243,7 +243,7 @@ export default function Root() {
           </div>
 
           <div className="company-date">
-            <div>sharif univercity</div>
+            <div>university of sharif</div>
             <div>2013 to 2016</div>
           </div>
           <div> master in AI</div>
